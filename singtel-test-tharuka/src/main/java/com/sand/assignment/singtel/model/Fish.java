@@ -8,10 +8,12 @@ public class Fish extends Animal implements Swimmable {
 	
 	protected Size size;
 	protected Color color;
+	
+	protected Fin fin = new Fin();
 
 	@Override
 	public void swim() {
-		System.out.println("Fish swimming");
+		fin.makeSwim();
 	}
 
 }

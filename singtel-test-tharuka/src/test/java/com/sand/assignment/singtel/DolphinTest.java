@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import com.sand.assignment.singtel.model.Fish;
 
-public class FishTest extends SysOutTest {
+public class DolphinTest extends SysOutTest {
 
 	
 	@Test
@@ -15,6 +15,5 @@ public class FishTest extends SysOutTest {
 	    String expected = "I am swimming" + System.lineSeparator();
 	    assertEquals(expected, outContent.toString());
 	}
-	
 	
 }
