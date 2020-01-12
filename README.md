@@ -1,4 +1,4 @@
-# tharuka
+# Singtel Test by Tharuka
 
 Contains the Animal models which can walk, fly, sing...
 
