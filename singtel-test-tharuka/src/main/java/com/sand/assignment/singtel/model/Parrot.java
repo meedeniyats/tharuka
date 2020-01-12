@@ -3,7 +3,8 @@ package com.sand.assignment.singtel.model;
 public class Parrot extends Bird {
 	
 	public enum Location{
-		WITH_DOG("Woof, woof"), WITH_CAT("Meow"), NEAR_ROOSTER("Cock-a-doodle-doo");
+		WITH_DOG("Woof, woof"), WITH_CAT("Meow"), NEAR_ROOSTER("Cock-a-doodle-doo"), 
+		DEFAULT("Parrot Singing");
 		
 		private String sound;
 		public String getSound() {
@@ -20,6 +21,10 @@ public class Parrot extends Bird {
 	
 	public Parrot(Location location) {
 		this.location = location;
+	}
+	
+	public Parrot() {
+		this.location = Location.DEFAULT;
 	}
 
 	@Override
