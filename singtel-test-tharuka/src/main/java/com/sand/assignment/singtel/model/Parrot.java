@@ -1,6 +1,6 @@
 package com.sand.assignment.singtel.model;
 
-public class Parrot extends Bird {
+public class Parrot extends FlyableBird {
 	
 	public enum Location{
 		WITH_DOG("Woof, woof"), WITH_CAT("Meow"), NEAR_ROOSTER("Cock-a-doodle-doo"), 

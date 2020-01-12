@@ -1,7 +1,7 @@
 package com.sand.assignment.singtel.model;
 
-public class FlyableBird extends Bird implements Flyable {
-	
+public class Butterfly extends Animal implements Flyable {
+
 	protected Wing wing = new Wing();
 
 	@Override
