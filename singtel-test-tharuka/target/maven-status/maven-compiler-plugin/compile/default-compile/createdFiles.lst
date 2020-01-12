@@ -1,4 +1,11 @@
-com\sand\assignment\singtel\model\Bird.class
-com\sand\assignment\singtel\Solution.class
-com\sand\assignment\singtel\App.class
+com\sand\assignment\singtel\model\Rooster.class
+com\sand\assignment\singtel\model\Chicken.class
 com\sand\assignment\singtel\model\Animal.class
+com\sand\assignment\singtel\model\Singable.class
+com\sand\assignment\singtel\model\Swimmable.class
+com\sand\assignment\singtel\model\Flyable.class
+com\sand\assignment\singtel\model\Bird.class
+com\sand\assignment\singtel\model\Walkable.class
+com\sand\assignment\singtel\Solution.class
+com\sand\assignment\singtel\model\Duck.class
+com\sand\assignment\singtel\model\FlyableBird.class

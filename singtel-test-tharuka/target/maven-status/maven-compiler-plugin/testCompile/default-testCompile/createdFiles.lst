@@ -1,2 +1,5 @@
-com\sand\assignment\singtel\AppTest.class
+com\sand\assignment\singtel\SysOutTest.class
+com\sand\assignment\singtel\ChickenTest.class
+com\sand\assignment\singtel\RoosterTest.class
 com\sand\assignment\singtel\BirdTest.class
+com\sand\assignment\singtel\DuckTest.class

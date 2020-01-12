@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.sand.assignment.singtel.BirdTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.sand.assignment.singtel.BirdTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s - in com.sand.assignment.singtel.BirdTest
