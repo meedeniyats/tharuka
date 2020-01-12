@@ -1,11 +1,6 @@
 package com.sand.assignment.singtel.model;
 
-public class Bird extends Animal implements Flyable, Singable {
-	
-	@Override
-	public void fly() {
-		System.out.println("I am flying");
-	}
+public class Bird extends Animal implements Singable {
 	
 	@Override
 	public void sing() {

@@ -6,7 +6,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Bird bird = new Bird();
 		bird.walk();
-		bird.fly();
+		//bird.fly();  Not all the birds can fly
 		bird.sing();
 	}
 }

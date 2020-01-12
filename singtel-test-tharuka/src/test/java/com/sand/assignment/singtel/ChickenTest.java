@@ -9,9 +9,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sand.assignment.singtel.model.Bird;
+import com.sand.assignment.singtel.model.Chicken;
 
-public class BirdTest {
+public class ChickenTest {
 	
 	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 	private final PrintStream originalOut = System.out;
@@ -30,8 +30,8 @@ public class BirdTest {
 	
 	@Test
 	public void singTest() {
-	    new Bird().sing();
-	    String expected = "I am singing" + System.lineSeparator();
+	    new Chicken().sing();
+	    String expected = "Cluck, cluck" + System.lineSeparator();
 	    assertEquals(expected, outContent.toString());
 	}
 

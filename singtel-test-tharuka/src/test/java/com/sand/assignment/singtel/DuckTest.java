@@ -9,17 +9,16 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.sand.assignment.singtel.model.Bird;
+import com.sand.assignment.singtel.model.Duck;
 
-public class BirdTest {
-	
+public class DuckTest {
+
 	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 	private final PrintStream originalOut = System.out;
-	private final PrintStream newOut = new PrintStream(outContent);
 
 	@Before
 	public void setUpStreams() {
-	    System.setOut(newOut);
+	    System.setOut(new PrintStream(outContent));
 	}
 
 	@After
@@ -30,8 +29,15 @@ public class BirdTest {
 	
 	@Test
 	public void singTest() {
-	    new Bird().sing();
-	    String expected = "I am singing" + System.lineSeparator();
+	    new Duck().sing();
+	    String expected = "Quack, quack" + System.lineSeparator();
+	    assertEquals(expected, outContent.toString());
+	}
+	
+	@Test
+	public void swimTest() {
+	    new Duck().swim();
+	    String expected = "I am swimming" + System.lineSeparator();
 	    assertEquals(expected, outContent.toString());
 	}
 
