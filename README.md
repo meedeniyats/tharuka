@@ -1,5 +1,7 @@
 # Singtel Test by Tharuka
 
+(This is a Maven 3 project using Java 11)
+
 Contains the Animal models which can walk, fly, sing...
 
 Seperate Interface has been defined for each each actions (Interface segragation)
